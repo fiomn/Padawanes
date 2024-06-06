@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\fonts\Starjedi.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\Starjedi.ttf" />
+  </ItemGroup>
+
 </Project>
